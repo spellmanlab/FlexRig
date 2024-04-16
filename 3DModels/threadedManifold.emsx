@@ -1,0 +1,128 @@
+<?xml version="1.0"?>
+<!DOCTYPE eMachineShop3DObjects SYSTEM "eMachineShop3DObjects_v1.8.dtd">
+<eMachineShop3DObjects VersionId="1.8">
+ <Creator Name="eMachineShop" Version="1.953"/>
+ <View Type="Top">
+  <Region Id="100" BaseHeight="0" Z="-4.75">
+   <Machine Id="41" Name="Auto"/>
+   <Processing>
+    <Thread Id="145" Parameters="#6-39.99999937227 (UNF)" Length="Maximal" Type="UN"/>
+   </Processing>
+   <Contour>
+    <Circle Id="100" Center="24.99757824,7" Radius="1.4351"/>
+   </Contour>
+  </Region>
+  <Region Id="101" BaseHeight="0" Z="-4.75">
+   <Machine Id="41" Name="Auto"/>
+   <Processing>
+    <Thread Id="146" Parameters="#6-39.99999937227 (UNF)" Length="Maximal" Type="UN"/>
+   </Processing>
+   <Contour>
+    <Circle Id="101" Center="25.00227584,2.80109536" Radius="1.4351"/>
+   </Contour>
+  </Region>
+  <Region Id="102" BaseHeight="0" Z="-4.75">
+   <Machine Id="41" Name="Auto"/>
+   <Processing>
+    <Thread Id="147" Parameters="#6-39.99999937227 (UNF)" Length="Maximal" Type="UN"/>
+   </Processing>
+   <Contour>
+    <Circle Id="102" Center="17.56247936,7" Radius="1.4351"/>
+   </Contour>
+  </Region>
+  <Region Id="103" BaseHeight="0" Z="-4.75">
+   <Machine Id="41" Name="Auto"/>
+   <Processing>
+    <Thread Id="148" Parameters="#6-39.99999937227 (UNF)" Length="Maximal" Type="UN"/>
+   </Processing>
+   <Contour>
+    <Circle Id="103" Center="17.56247936,2.80109536" Radius="1.4351"/>
+   </Contour>
+  </Region>
+  <Region Id="108" BaseHeight="0" Z="13.5">
+   <Machine Id="41" Name="Auto"/>
+   <Contour>
+    <Straight Id="107" P1="5.19167712,10" P2="5.19167712,0" />
+    <Straight Id="106" P1="5.19167712,0" P2="32.1617536,0" />
+    <Straight Id="105" P1="32.1617536,0" P2="32.1617536,10" />
+    <Straight Id="104" P1="32.1617536,10" P2="5.19167712,10" />
+   </Contour>
+  </Region>
+  <Region Id="219" BaseHeight="0" Z="-3" BottomType="Drill">
+   <Machine Id="41" Name="Auto"/>
+   <Contour>
+    <Circle Id="219" Center="17.56247936,7" Radius="1.4"/>
+   </Contour>
+  </Region>
+  <Region Id="218" BaseHeight="0" Z="-3" BottomType="Drill">
+   <Machine Id="41" Name="Auto"/>
+   <Contour>
+    <Circle Id="218" Center="24.99757824,7" Radius="1.4"/>
+   </Contour>
+  </Region>
+  <Region Id="217" BaseHeight="0" Z="-3" BottomType="Drill">
+   <Machine Id="41" Name="Auto"/>
+   <Contour>
+    <Circle Id="217" Center="17.56247936,2.80109536" Radius="1.4"/>
+   </Contour>
+  </Region>
+  <Region Id="216" BaseHeight="0" Z="-3" BottomType="Drill">
+   <Machine Id="41" Name="Auto"/>
+   <Contour>
+    <Circle Id="216" Center="25.00227584,2.80109536" Radius="1.4"/>
+   </Contour>
+  </Region>
+ </View>
+ <View Type="Bottom">
+  <Region Id="139" BaseHeight="0" Z="-4.75">
+   <Machine Id="41" Name="Auto"/>
+   <Processing>
+    <Thread Id="150" Parameters="#6-39.99999937227 (UNF)" Length="Maximal" Type="UN"/>
+   </Processing>
+   <Contour>
+    <Circle Id="139" Center="21.28237696,4.90054784" Radius="1.4351"/>
+   </Contour>
+  </Region>
+  <Region Id="220" BaseHeight="0" Z="-2" BottomType="Drill">
+   <Machine Id="41" Name="Auto"/>
+   <Contour>
+    <Circle Id="220" Center="21.28237696,4.90054784" Radius="1.4"/>
+   </Contour>
+  </Region>
+ </View>
+ <View Type="Right">
+  <Region Id="121" BaseHeight="0" Z="-4.75">
+   <Machine Id="41" Name="Auto"/>
+   <Processing>
+    <Thread Id="149" Parameters="#6-39.99999937227 (UNF)" Length="Maximal" Type="UN"/>
+   </Processing>
+   <Contour>
+    <Circle Id="121" Center="5,6.75" Radius="1.4351"/>
+   </Contour>
+  </Region>
+  <Region Id="271" BaseHeight="0" Z="-11.42999936" BottomType="Drill">
+   <Machine Id="41" Name="Auto"/>
+   <Contour>
+    <Circle Id="271" Center="5,6.75" Radius="1.25"/>
+   </Contour>
+  </Region>
+ </View>
+ <View Type="Front">
+  <Region Id="138" BaseHeight="0" Z="AirInside">
+   <Machine Id="41" Name="Auto"/>
+   <Contour>
+    <Circle Id="138" Center="10.414,6.75" Radius="4.00035488"/>
+   </Contour>
+  </Region>
+ </View>
+ <QuantityOfParts Value="16"/>
+ <Specifications>
+  <Specification MachineId="41" Name="Tolerance" Value="0.762" />
+  <Specification MachineId="41" Name="Flatness" Value="2.54" />
+  <Specification MachineId="41" Name="EdgeDraft" Value="5" />
+  <Specification MachineId="41" Name="SurfaceRoughness" Value="12.5" />
+  <Specification MachineId="41" Name="EdgeRoughness" Value="25" />
+  <Specification MachineId="41" Name="MaterialThicknessTolerance" Value="20" />
+ </Specifications>
+ <Material Id="5" Name="Aluminum 6061 T6"/>
+</eMachineShop3DObjects>
