@@ -14,7 +14,7 @@ Average<float> runAveR(10);
 int session;
 int ix;
 int blockTrials = 1; //set to 1 to run blocks of 20 trials, 0 to do simple discrimination
-int blockLength = 20;
+int blockLength = 20; // 20
 int blockNum = 0;
 float critScore = 0.8; //determines criterion score on incongruent trials needed to change blocks
 float hiScore = 0;
@@ -26,7 +26,7 @@ int ITI = 0;
 int trial = 0;
 int trialCorrect = 0;
 int totalDispensed = 0;
-String sessionNames[] =  {"Shaping(4)", "Shaping(5)"};
+String sessionNames[] =  {"Shaping1", "Shaping2"};
 String stim[] = {"Whisker", "Odor"};
 
 int tone_length = 500;
@@ -51,7 +51,7 @@ void setup() {
   int waiting = 1;
   delay(500);
   Serial.println("Choose session:");
-  Serial.println("(1) SH4"); Serial.println("(2) SH5");
+  Serial.println("(1) SH1 -- no penalty"); Serial.println("(2) SH2 -- with penalty");
 
   while (waiting == 1) {
     if (Serial.available() > 0) {    
