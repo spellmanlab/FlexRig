@@ -1,0 +1,69 @@
+*Pick And Place List
+*Company=
+*Author=
+*eMail=
+*
+*Project=FlexRigShield2026
+*Date=19:59:10
+*CreatedBy=Fritzing 0.9.6b.2021-02-21.0.9.6
+*
+*
+*Coordinates in mm, always center of component
+*Origin 0/0=Lower left corner of PCB
+*Rotation in degree (0-360, math. pos.)
+*
+*No;Value;Package;X;Y;Rotation;Side;Name
+1;;;31.9689;-19.1502;0;Bottom;Via11
+2;;;49.7489;-8.99017;0;Bottom;Via16
+3;;;59.9089;-8.99017;0;Bottom;Via19
+4;1M;THT;49.749;-31.8501;-90;Bottom;1MΩ
+5;;THT;12.919;-14.0701;-90;Bottom;J6
+6;;THT;5.29897;-14.0701;-90;Bottom;J5
+7;;;75.1489;-8.99017;0;Bottom;Via31
+8;;;64.9891;-8.98998;0;Bottom;Via26
+9;;tactile-switch-1101ne;12.259;-3.91014;0;Top;reset
+10;;THT;56.099;-24.2301;-90;Bottom;J1
+11;;;14.189;-52.1701;0;Bottom;Hole1
+12;1M;THT;58.8568;-17.6622;-135;Bottom;1MΩ
+13;;THT;66.2367;-3.88778;-90;Bottom;J11
+14;;;80.2289;-8.99017;0;Bottom;Via33
+15;;;62.4489;-8.99017;0;Bottom;Via14
+16;1M;THT;54.829;-35.8863;-90;Bottom;1MΩ
+17;1M;THT;16.729;-44.5501;0;Bottom;1MΩ
+18;;THT;76.419;-52.1701;-90;Bottom;J12
+19;;;77.6889;-8.99017;0;Bottom;Via32
+20;;;34.5089;-8.99017;0;Bottom;Via24
+21;;THT;94.1501;-30.5312;0;Bottom;FlexRig
+22;100k;THT;63.9368;-17.6622;-135;Bottom;1MΩ
+23;1M;THT;57.369;-35.8863;-90;Bottom;1MΩ
+24;;THT;31.7265;-52.1701;-90;Bottom;J3
+25;;;37.0489;-8.99017;0;Bottom;Via23
+26;;;52.2889;-8.99017;0;Bottom;Via15
+27;;;39.5889;-8.99017;0;Bottom;Via22
+28;;THT;43.399;-14.0701;-90;Bottom;J9
+29;;ftdi_basic;56.099;-3.91008;0;Bottom;A0 . . . . A5
+30;1M;THT;16.729;-47.0901;0;Bottom;1MΩ
+31;;THT;81.499;-3.91008;-90;Bottom;J13
+32;;;44.6689;-34.3901;0;Bottom;Via9
+33;;;52.2889;-47.0901;0;Bottom;Via29
+34;1M;THT;52.289;-34.3901;-90;Bottom;1MΩ
+35;1M;THT;21.809;-6.45008;0;Bottom;1MΩ
+36;;;37.0489;-19.1502;0;Bottom;Via12
+37;1M;THT;61.3968;-17.6622;-135;Bottom;1MΩ
+38;;;57.3689;-8.99017;0;Bottom;Via18
+39;1M;THT;16.729;-39.4701;0;Bottom;1MΩ
+40;;THT;53.559;-52.1701;-90;Bottom;J4
+41;;;44.6689;-8.99017;0;Bottom;Via20
+42;;THT;33.239;-28.0401;-90;Bottom;SN75441ONE
+43;;;54.8289;-8.99017;0;Bottom;Via17
+44;;;31.9689;-8.99017;0;Bottom;Via25
+45;;THT;28.159;-14.0701;-90;Bottom;J8
+46;;;44.6689;-29.3101;0;Bottom;Via35
+47;;THT;51.019;-14.0701;-90;Bottom;J10
+48;1M;THT;62.449;-31.8501;-90;Bottom;1MΩ
+49;;THT;33.239;-43.2801;-90;Bottom;SN75441ONE
+50;;;82.7689;-8.99017;0;Bottom;Via34
+51;;;42.1289;-8.99017;0;Bottom;Via21
+52;;THT;56.099;-44.5501;-90;Bottom;J2
+53;;THT;20.539;-14.0701;-90;Bottom;J7
+54;;ftdi_basic;38.319;-3.91008;0;Bottom;R 3 5 G G V
